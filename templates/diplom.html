@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/style.css')}}" type="text/css" />
+    <title>DiscreteMathemagic</title>
+</head>
+<body>
+    <div class="box-form">
+        <div class="left">
+          <div class="overlay">
+          <img class="img" src="{{url_for('static',filename = 'images/login.png')}}">
+          <p>Этот курс позволит вам овладеть базовыми понятиями и принципами дискретной математики и некоторых ее смежных глав. Вы познакомитесь с базовыми математическими объектами, без которых знание математики тяжело себе представить</p>
+          </div>
+        </div>
+          <div class="right">
+          <h5>Вход</h5>
+          <div class="inputs">
+            <input type="text" placeholder="логин">
+            <br>
+            <input type="password" placeholder="пароль">
+          </div>
+            <br><br>
+          <div class="remember-me--forget-password">
+            <button>Войти</button>
+            <p>забыли пароль?</p>
+          </div>         
+        </div>        
+      </div>
+</body>
+</html>
