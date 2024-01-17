@@ -17,13 +17,14 @@
           <div class="right">
           <h5>Вход</h5>
           <div class="inputs">
-            <input type="text" placeholder="логин">
+            <form action = "/" method="post" class = "form-contact">
+            <input type="text" name="Login" placeholder="логин" required>
             <br>
-            <input type="password" placeholder="пароль">
+            <input type="password" name="password" placeholder="пароль" required>
           </div>
             <br><br>
           <div class="remember-me--forget-password">
-            <button>Войти</button>
+            <button type = "submit">Войти</button>
             <p>забыли пароль?</p>
           </div>         
         </div>        
